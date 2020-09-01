@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:background="@color/colorLightBlue"
+    >
+    <ImageView
+        android:id="@+id/imgDrawerImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/profile_icon"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="25dp"/>
+
+    <TextView
+        android:id="@+id/txtDrawerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="25dp"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:text="@string/name"
+
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/txtDrawerSecondaryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="10dp"
+
+        android:layout_marginStart="26dp"
+        android:textAllCaps="false"
+        android:text="@string/phone_number"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+</LinearLayout>
